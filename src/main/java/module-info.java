@@ -3,6 +3,7 @@ module com.example.javaee8 {
     requires javafx.fxml;
 
     requires com.dlsc.formsfx;
+    requires json.simple;
 
     opens com.example.javaee8 to javafx.fxml;
     exports com.example.javaee8;
